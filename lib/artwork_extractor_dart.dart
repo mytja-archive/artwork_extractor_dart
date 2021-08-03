@@ -3,9 +3,9 @@ library artwork_extractor_dart;
 import 'dart:ffi';
 import 'package:ffi/ffi.dart';
 import 'dart:io' show Platform;
-import 'bin/artwork_extractor_dart.dart';
+import 'src/artwork_extractor_dart.dart';
 
-void exportPicture(String mediaPath, String outputPath) {
+void write(String mediaPath, String outputPath) {
   // Open the dynamic library
   var libraryPath = 'artwork_extractor.so';
   if (Platform.isWindows) {

@@ -15,3 +15,7 @@ example/
 *.dll
 *.ogg
 *.png
+*.jpg
+*.oga
+*.flac
+*.mp3
