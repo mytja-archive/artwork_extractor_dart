@@ -1,6 +1,6 @@
 name: artwork_extractor_dart
 description: A simple library to extract & save artwork of a music/audio file.
-version: 1.0.0
+version: 1.0.0+1
 homepage: https://github.com/mytja/artwork_extractor_dart
 
 environment:
