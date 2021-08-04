@@ -26,6 +26,7 @@ void write(String mediaPath, String outputPath) {
 
 Future<String> writeExecutable(String mediaPath, String outputPath,
     {bool folowMime = false}) async {
+  // ignore: omit_local_variable_types
   List<String> args = [mediaPath, outputPath];
   if (folowMime) {
     args.add('--folow-mime');
